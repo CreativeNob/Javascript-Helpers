@@ -29,4 +29,12 @@ function removeDuplicates(array) {
 function getCurrentTimestamp() {
     return new Date().getTime();
   }
+
+/* -------------------------------------------------------------------------- */
+/*                          check valid Email address                         */
+/* -------------------------------------------------------------------------- */
+function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
   
