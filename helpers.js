@@ -22,4 +22,11 @@ function generateUUID() {
 function removeDuplicates(array) {
     return Array.from(new Set(array));
   }
+
+/* -------------------------------------------------------------------------- */
+/*                            Get Current TimeStamp                           */
+/* -------------------------------------------------------------------------- */
+function getCurrentTimestamp() {
+    return new Date().getTime();
+  }
   
