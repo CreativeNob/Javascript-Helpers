@@ -15,3 +15,11 @@ const uuid = require('uuid');
 function generateUUID() {
   return uuid.v4();
 }
+
+/* -------------------------------------------------------------------------- */
+/*                        Remove Duplicates from Array                        */
+/* -------------------------------------------------------------------------- */
+function removeDuplicates(array) {
+    return Array.from(new Set(array));
+  }
+  
