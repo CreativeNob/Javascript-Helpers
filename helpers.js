@@ -4,3 +4,14 @@
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                             unique id generator                            */
+/* -------------------------------------------------------------------------- */
+const uuid = require('uuid');
+
+function generateUUID() {
+  return uuid.v4();
+}
