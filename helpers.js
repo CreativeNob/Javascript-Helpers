@@ -37,4 +37,11 @@ function isValidEmail(email) {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
   }
+
+  /* -------------------------------------------------------------------------- */
+  /*                     Get Random Boolean (true or false):                    */
+  /* -------------------------------------------------------------------------- */
+  function getRandomBoolean() {
+    return Math.random() < 0.5;
+  }
   
