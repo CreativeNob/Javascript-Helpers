@@ -45,3 +45,10 @@ function isValidEmail(email) {
     return Math.random() < 0.5;
   }
   
+  /* -------------------------------------------------------------------------- */
+/*                          check valid phone number                         */
+/* -------------------------------------------------------------------------- */
+function validateMobileNumber(mobileNumber) {
+  var pattern = /^\d{10}$/;
+  return pattern.test(mobileNumber);
+}
